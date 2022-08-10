@@ -149,7 +149,9 @@ button[disabled] {
 #img-show {
   padding:100px 20px;
 }
-
+#txt-show{
+  display: none;
+}
 
 
 #svg9 {
