@@ -4,11 +4,11 @@
 Application that encrypts texts, so you can exchange secret messages with other people who know the secret of the encryption used.
 
 The encryption "keys" which are:
-The letter "e" is converted to "enter"
-The letter "i" is converted to "imes"
-The letter "a" is converted to "ai"
-The letter "o" is converted to "ober"
-The letter "u" is converted to "ufat"
+- The letter "e" is converted to "enter"
+- The letter "i" is converted to "imes"
+- The letter "a" is converted to "ai"
+- The letter "o" is converted to "ober"
+- The letter "u" is converted to "ufat"
 
 Requirements:
 - Should only work with lowercase letters
