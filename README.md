@@ -10,7 +10,7 @@ The letter "a" is converted to "ai"
 The letter "o" is converted to "ober"
 The letter "u" is converted to "ufat"
 
-requirements:
+Requirements:
 - Should only work with lowercase letters
 - Letters with accents or special characters must not be used
 - It must be possible to convert a word to the encrypted version and also to return an encrypted word to the original version.
