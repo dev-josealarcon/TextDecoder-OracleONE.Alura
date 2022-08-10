@@ -1,0 +1,214 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #f3f5fc;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+  margin: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+textarea {
+  width: 95%;
+  height: 70vh;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  resize: none;
+  outline: none;
+  background: none;
+}
+textarea::placeholder {
+  color: #0a3871;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  background: none;
+  margin: 10px;
+  transition: 0.3s;
+}
+button:hover {
+  background: #d8dfe8;
+  cursor: pointer;
+}
+button[disabled] {
+  background: #d8dfe8;
+  color: #0a3871;
+  cursor: default;
+}
+.btn-encrypt {
+  background: #0a3871;
+  color: #fff;
+}
+.btn-encrypt:hover {
+  color: #0a3871;
+}
+
+.mark {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1rem;
+  transition: 0.5s ease;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  position: relative;
+  perspective: 50000px;
+  color: #00b5dc;
+}
+.logo div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-left: 3px solid;
+  border-top: 3px solid transparent;
+  border-radius: 100%;
+}
+.logo div:nth-child(1) {
+  animation: logo-anim-1 4s linear infinite;
+}
+@keyframes logo-anim-1 {
+  from {
+    transform: rotateZ(120deg) rotateX(66deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(120deg) rotateX(66deg) rotateZ(360deg);
+  }
+}
+
+.logo div:nth-child(2) {
+  animation: logo-anim-2 4s linear infinite;
+}
+@keyframes logo-anim-2 {
+  from {
+    transform: rotateZ(240deg) rotateX(66deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(240deg) rotateX(66deg) rotateZ(360deg);
+  }
+}
+
+.logo div:nth-child(3) {
+  animation: logo-anim-3 4s linear infinite;
+}
+@keyframes logo-anim-3 {
+  from {
+    transform: rotateZ(360deg) rotateX(66deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg) rotateX(66deg) rotateZ(360deg);
+  }
+}
+.mark span {
+  font-size: 1.1rem;
+  color: #00b5dc;
+}
+
+.encrypt,
+.decrypt {
+  height: 81vh;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.decrypt {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.34);
+  text-align: center;
+}
+#img-show {
+  padding:100px 20px;
+}
+
+
+
+#svg9 {
+  width: 50%;
+}
+#txt-input {
+  color: #0a3871;
+  font-size: 19px;
+}
+#txt-output {
+  color: #5e5e5e;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+footer p {
+  padding: 10px;
+}
+.social a {
+  color: #8e8e8e;
+  padding: 0 25px;
+  transition: 0.3s;
+}
+.social a:hover {
+  color: #cdcbcb;
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+  main {
+    flex-direction: row;
+    margin: 1vw;
+  }
+  button {
+    width: 250px;
+  }
+  .encrypt,
+  .decrypt {
+    margin: 10px auto;
+  }
+  .encrypt {
+    width: 40%;
+  }
+  .decrypt {
+    width: 25%;
+  }
+  #txt-input {
+    font-size: 22px;
+  }
+}
