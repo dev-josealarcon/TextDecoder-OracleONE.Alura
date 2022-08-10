@@ -21,4 +21,4 @@ requirements:
 
  ## Mobile
  
-<img src="/assets/mobile.png" alt="Page mobile">
+<img src="/assets/mobile.jpg" alt="Page mobile">
