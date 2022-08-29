@@ -1,6 +1,6 @@
 # TextDecoder-OracleONE.Alura
 
-# Access the app by clicking <a href="https://dev-josealarcon.github.io/TextDecoder-OracleONE.Alura/">Here</a>!
+# Access the app by clicking  >> <a href="https://dev-josealarcon.github.io/TextDecoder-OracleONE.Alura/" target="_blank">here</a>!
 # Challenge ONE Sprint 01: Build a text decoder with Javascript
 Application that encrypts texts, so you can exchange secret messages with other people who know the secret of the encryption used.
 
