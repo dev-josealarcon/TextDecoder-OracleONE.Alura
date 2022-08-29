@@ -1,4 +1,5 @@
 # TextDecoder-OracleONE.Alura
+## Text Decoder
 
 ## Access the app by clicking  >> <a href="https://dev-josealarcon.github.io/TextDecoder-OracleONE.Alura/" target="_blank">here</a>!
 # Challenge ONE Sprint 01: Build a text decoder with Javascript
